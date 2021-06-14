@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/style.css" />
     <script
-            src="https://kit.fontawesome.com/9714473654.js"
-            
-        ></script>
+            src="https://kit.fontawesome.com/9714473654.js">
+             </script>
+       
   </head>
   <body>
     <header>
@@ -59,6 +59,15 @@
                 <option value="whole_day">Whole Day</option>
             </select>
         </div>
+      <div>
+            <label for="your_skill">Your Skill:</label>
+            <select name="your_skill" id="Your_skill" required>
+                <option value="">Select:</option>
+                <option value="Beginner" name="Beginner" id="Beginner">Beginner</option>
+                <option value="Advanced">Advanced</option>
+                <option value="Mixed_Group">Mixed Group</option>
+            </select>
+        </div>
         <div>
             <label for="email">Email Address:</label>
             <input type="email" name="email" id="email" required>
@@ -66,22 +75,7 @@
         <div>
             <label for="phonenumber">Phone-number:</label>
             <input type="tel" name="phonenumber" id="phonenumber" placeholder="as you like">
-        </div>
-
-        <div id="jj">
-
-            <span>Select Your Skill:</span>
-
-            <input type="radio" name="skills" id="Beginner" required>
-            <label for="beginner">Beginner</label>
-
-            <input type="radio" name="skills" id="advanced" required>
-            <label for="advanced">Advanced</label>
-
-            <input type="radio" name="skills" id="mixed_group" required>
-            <label for="mixed group">Mixed Group</label>
-
-        </div>
+      </div>
         <div>
             <label for="Leave_a_comment">Leave a comment:<br></label>
             <textarea name="Leave_a_comment" id="Leave_a_comment" cols="50" rows="4" placeholder="Enter Your Comments Here..."></textarea>
@@ -93,8 +87,6 @@
         <div id="submit">
             <input type="submit" value="Submit">
         </div>
-
-
     </form>
 </main>
 <footer>
@@ -109,7 +101,9 @@
             <i class="fab fa-twitter fa-3x twitt"></i>
         </a>
     </section>
-
  </footer>
    </body>
 </html>
+
+
+
