@@ -1,10 +1,10 @@
 @font-face {
     font-family: "montez";
-    src: url(/fonts/Montez-Regular.ttf);
+    src: url(../fonts/Montez-Regular.ttf);
 }
 @font-face {
     font-family: "kau";
-    src: url(/fonts/KaushanScript-Regular.ttf);
+    src: url(../fonts/KaushanScript-Regular.ttf);
 }
 *{
     padding: 0;
@@ -32,7 +32,7 @@ body{
 }
 .landing_page{
     background-color:brown ;
-    background-image: url(/images/people-woman-sport-muscles.webp);
+    background-image: url(../images/people-woman-sport-muscles.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -47,7 +47,7 @@ body{
     color: rgb(255, 123, 0);
 }
 .contact_page{background-color:brown ;
-    background-image: url(/images/pexels-photo-5384410.jpeg);
+    background-image: url(../images/pexels-photo-5384410.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
