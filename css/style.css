@@ -2,10 +2,6 @@
     font-family: "montez";
     src: url(../fonts/Montez-Regular.ttf);
 }
-@font-face {
-    font-family: "kau";
-    src: url(../fonts/KaushanScript-Regular.ttf);
-}
 *{
     padding: 0;
     margin: 0;
@@ -24,42 +20,39 @@ body{
     padding: 10px;
     color: rgb(255, 123, 0);
     font-size: 3.1rem;
-    
     background-repeat: no-repeat;
     background-color: beige;
     text-align: left;
-
 }
+
+    
 .landing_page{
     background-color:brown ;
     background-image: url(../images/people-woman-sport-muscles.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
     height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     padding: 0;
     margin:0 ;
-    
     text-align: center;
     color: rgb(255, 123, 0);
-}
-.contact_page{background-color:brown ;
+    }
+    .contact_page{
+    background-color:brown ;
     background-image: url(../images/pexels-photo-5384410.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
     height: 100vh;
     padding: 0;
     margin:0 ;
     text-align: center;
     color: rgb(255, 123, 0);
-    
-}
-#o{
+    }
+
+  #o{  
     position: relative;
     margin-top: 0;
     margin-right:20px;
@@ -72,23 +65,18 @@ body{
     list-style-type: none;
     text-decoration: none;
     font-size: 1.3rem;
-    /* padding-left: 25px;   */
-}
+  }  
 #o nav li{
     
     display:inline-block;
     padding: 0,20px,0,30px;
-    
 }
-#o nav li a{
+    
+  #o nav li a{  
     text-decoration: none;
     color: beige;
-    
-    
-    
-    
-}
-#o a{
+  }  
+  #o a{
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 1vw;
@@ -96,16 +84,14 @@ body{
     background-color:rgb(255, 123, 0) ;
     /* color: beige; */
     border-radius: 1.5vh;
-    font-weight: bold;
-    
-  
-
-}
+    font-weight: bold;  
+  }
 #o a:hover{
     background-color: beige;
     color: rgb(255, 123, 0);
     border-color: beige;
-}
+}  
+    
 .text{
     font-weight: bold;
     background-color: beige;
@@ -129,9 +115,6 @@ body{
     margin: 15px;
     padding:10px ;
     border-radius: 2vh;
-
-    
-    
 }
 a{
     color:rgb(255, 123, 0) ;
@@ -205,3 +188,18 @@ form{
 .icons{
     margin: 15px;
 }
+    
+
+
+
+    
+  
+
+
+
+
+
+    
+    
+
+
