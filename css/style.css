@@ -1,6 +1,6 @@
 @font-face {
   font-family: "montez";
-  src: url(/fonts/Montez-Regular.ttf);
+  src: url(./fonts/Montez-Regular.ttf);
 }
 * {
   padding: 0;
